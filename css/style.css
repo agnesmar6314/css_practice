@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     color: #0D0D0D;
+  
 }
 
 p {
@@ -40,5 +41,77 @@ div {
 }
 
 .introduction {
-    
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2em;
 }
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+    border-style: solid;
+    border-width: 0px 0px 2px 5px;
+}
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    border-style: solid;
+    border-width: 2px 5px 0px 2px;
+}
+
+.blue h2 {
+    color: #C4C4C4;
+}
+
+.blue p {
+    color:  #C4C4C4;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+    border-style: solid;
+    border-width: 0px 0px 2px 5px;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #00EB00;
+    text-align: left; 
+    margin-right: 50px; 
+    border-right: 5px;
+    border-top: 2px;
+    border-style: solid; 
+    border-width: 2px, 5px, 0px, 0px
+}
+
+footer {
+    background-image: linear-gradient(to right, #000000, #0000ff, #0066ff,   #000000);
+    /*WDYM by 25, 70,a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.*/
+    border: 5px solid #FFFFFF;
+
+}
+
+footer p {
+    text-align: right;
+    font-size: 20px;
+    padding: 15px, 15px, 15px, 0px;
+
+}
+
+
+
+
